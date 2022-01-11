@@ -17,7 +17,7 @@ namespace UnitTest1
             var result = math.AddNumbers(5, 5);
             Assert.True(result == 10);
         }
-
+        
         [Fact]
         public void TestSubtactNumbers()
         {
@@ -41,5 +41,10 @@ namespace UnitTest1
             var result = math.DivideNumbers(10, 2);
             Assert.True(result == 5);
         }
+    }
+
+    public class AdvMathTest
+    {
+
     }
 }
