@@ -19,15 +19,32 @@ namespace Mathematics
             // This adds two numbers
             return num1 + num2;
         }
-
+        /// <summary>
+        /// This function subtracts two numbers
+        /// </summary>
+        /// <param name="num1"></param>
+        /// <param name="num2"></param>
+        /// <returns></returns>
         public double SubtractNumbers(double num1, double num2)
         {
             return num1 - num2;
         }
+        /// <summary>
+        /// This function multiples two numbers
+        /// </summary>
+        /// <param name="num1"></param>
+        /// <param name="num2"></param>
+        /// <returns></returns>
         public double MultiplyNumbers(double num1, double num2)
         {
             return num1 * num2;
         }
+        /// <summary>
+        /// This function divides two numbers
+        /// </summary>
+        /// <param name="num1"></param>
+        /// <param name="num2"></param>
+        /// <returns></returns>
         public double DivideNumbers(double num1, double num2)
         {
             return num1 / num2;
