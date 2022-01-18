@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics", "Mathematics\Mathematics.csproj", "{5A7F0C9C-2B15-4980-8003-0A18863A2885}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mathematics", "Mathematics\Mathematics.csproj", "{5A7F0C9C-2B15-4980-8003-0A18863A2885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest1", "UnitTest1\UnitTest1.csproj", "{8FEA7687-ACEE-4EED-8BD9-0BBDF88EA5FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest1", "UnitTest1\UnitTest1.csproj", "{8FEA7687-ACEE-4EED-8BD9-0BBDF88EA5FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathematicsConsole", "MathematicsConsole\MathematicsConsole.csproj", "{822D2979-D89C-42D8-9769-8F2399815560}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8FEA7687-ACEE-4EED-8BD9-0BBDF88EA5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FEA7687-ACEE-4EED-8BD9-0BBDF88EA5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FEA7687-ACEE-4EED-8BD9-0BBDF88EA5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822D2979-D89C-42D8-9769-8F2399815560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822D2979-D89C-42D8-9769-8F2399815560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822D2979-D89C-42D8-9769-8F2399815560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822D2979-D89C-42D8-9769-8F2399815560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
